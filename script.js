@@ -1,10 +1,10 @@
 function fibonacci(num) {
 // your code here
 	let a=0,b=1;
-	if(num==1){
+	if(num===1){
 		return a;
 	}
-	if(num==2){
+	if(num===2){
 		return b;
 	}
 	for(let i = 3; i<=num; i++){
